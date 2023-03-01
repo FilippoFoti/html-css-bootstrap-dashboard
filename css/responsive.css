@@ -1,0 +1,18 @@
+/* MOBILE SM */
+
+
+
+/* TABLET MD */
+
+
+
+
+/* DESKTOP LG */
+@media screen and (min-width: 992px) {
+
+    /* SIDEBAR */
+    .sidebar {
+        width: 150px;
+    }
+    
+}

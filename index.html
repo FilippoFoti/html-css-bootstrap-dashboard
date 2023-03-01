@@ -30,57 +30,71 @@
         <section id="dashbord">
     <!-- HEADER -->
             <header>
-                <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <nav class="navbar navbar-expand-lg h-100">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#">
-                        <img class="d-lg-none" src="img/mobile-logo.png" alt="Logo">
+                      <a class="navbar-brand p-0" href="#">
+                        <img class="logo-xs d-lg-none" src="img/mobile-logo.png" alt="Logo">
                         <img class="d-none d-lg-block" src="img/logo.svg" alt="Logo">
                       </a>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        <form class="d-flex flex-grow-1 align-items-center fs-5 rounded-3 px-2" role="search">
+                            <input class="search form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                         </form>
                       </div>
+                        <nav class="header-menu">
+                            <ul class="my_menu-list d-flex justify-content-end m-0 p-0 ms-2">
+                                <li class="mx-2 d-none d-lg-block">
+                                    <a href=""><i class="fa-solid fa-list-ul"></i></a>
+                                </li>
+                                <li class="mx-2 d-none d-lg-block">
+                                    <a href=""><i class="fa-solid fa-circle-question"></i></a>
+                                </li>
+                                <li class="mx-2 d-none d-lg-block">
+                                    <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                </li>
+                                <li class="mx-2 me-0">
+                                    <a class="orange" href=""><i class="fa-solid fa-bell"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                  </nav> -->
+                  </nav>
             </header>
     <!-- /HEADER -->
 
-    <!-- SIDEBAR -->
-            <section class="sidebar">
-                
-            </section>
-    <!-- /SIDEBAR -->
+        <div class="main-content d-flex">
+        <!-- SIDEBAR -->
+                <section class="sidebar d-flex align-items-center justify-content-between flex-column">
+                    <div class="menu"></div>
+                    <div class="settings"></div>
+                </section>
+        <!-- /SIDEBAR -->
 
-    <!-- CONTENT -->
-            <section class="content">
-
+        <!-- CONTENT -->
+                <section class="content">
+                    <div class="jumbotron">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-4 col-lg-6 order-1 order-md-0">logo</div>
+                                <div class="col-12 col-md-4 col-lg-3 order-2 order-md-1">125</div>
+                                <div class="col-12 col-md-4 col-lg-3 order-0 order-md-2">studente</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-table">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-8 order-lg-0">classi</div>
+                                <div class="col-12 col-lg-8 order-lg-2">faq</div>
+                                <div class="col-12 col-lg-4 order-lg-1">todo</div>
+                                <div class="col-12 col-lg-4 order-lg-3">immagine</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <!-- /CONTENT -->
             </section>
-    <!-- /CONTENT -->
-        </section>
+        </div>
     </main>
     <!-- /MAIN -->
     
