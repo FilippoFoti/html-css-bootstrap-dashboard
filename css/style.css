@@ -52,17 +52,17 @@ form::before {
     flex-basis: auto;
 }
 
-header .my_menu-list {
+header .my_header-list {
     list-style-type: none;
 }
 
-header .my_menu-list li a {
+header .my_header-list li a {
     text-decoration: none;
     font-size: 0.9rem;
     color: rgba(91, 88, 88, 1);
 }
 
-header .my_menu-list li .orange {
+header .my_header-list li .orange {
     color: rgba(255, 143, 0, 1);
 }
 
@@ -85,15 +85,33 @@ header .my_menu-list li .orange {
 }
 
 .menu {
-    height: 120px;
-    width: 60px;
-    background-color: aqua;
+    /* height: 120px;
+    width: 60px; */
+    /* background-color: aqua; */
 }
 
+.sidebar .my_sidebar-list {
+    list-style-type: none;
+}
+
+.sidebar .my_sidebar-list li a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.sidebar .my_sidebar-list li:hover {
+    background-color: rgba(229, 229, 229, 0.5);
+}
+
+/* .sidebar .my_sidebar-list li a p:hover {
+    background-color: white;
+} */
+
 .settings {
-    height: 60px;
+    /* height: 60px;
     width: 60px;
-    background-color: aqua;
+    background-color: aqua; */
 }
 
 /* CONTENT */
