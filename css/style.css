@@ -1,3 +1,34 @@
+/* RESET */
+
 body {
-    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* MAIN */
+
+#dashbord {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    height: 70px;
+    background-color: rgba(248, 249, 250, 1);
+    position: fixed;
+    z-index: 999;
+    top: 70px;
+    left: 0;
+}
+
+.sidebar {
+    /* height: calc(100vh - 70px); */
+    width: 70px;
+    background-color: rgba(5, 30, 52, 1);
+    background-image: url(../img/sidebar-bg.png);
 }
