@@ -119,6 +119,6 @@ header .my_header-list li .orange {
 
 .jumbotron {
     height: 300px;
-    background-color: blue;
+    background-color: rgba(27, 114, 232, 1);
 }
 
