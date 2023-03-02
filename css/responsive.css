@@ -3,8 +3,31 @@
 
 
 /* TABLET MD */
-
-
+@media screen and (min-width: 768px) {
+    
+    /* JUMBOTRON */
+    .jumbotron .badge {
+        font-size: 0.85rem;
+    }
+    
+    .jumbotron h1 {
+        font-size: 1.8rem;
+    }
+    
+    .jumbotron h2 {
+        font-size: 1rem;
+    }
+    
+    .jumbotron p {
+        font-size: 1.8rem;
+    }
+    
+    .jumbotron .btn {
+        width: 35px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+}
 
 
 /* DESKTOP LG */
@@ -13,6 +36,23 @@
     /* SIDEBAR */
     .sidebar {
         width: 150px;
+    }
+
+    /* JUMBOTRON */
+    .jumbotron .badge {
+        font-size: 0.75rem;
+    }
+    
+    .jumbotron h1 {
+        font-size: 1.7rem;
+    }
+    
+    .jumbotron h2 {
+        font-size: 0.90rem;
+    }
+    
+    .jumbotron p {
+        font-size: 1.7rem;
     }
     
 }
