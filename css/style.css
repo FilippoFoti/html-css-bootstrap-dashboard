@@ -10,7 +10,7 @@ img {
 
 /* MAIN */
 
-#dashbord {
+#dashboard {
     width: 100%;
     height: 100vh;
 }
@@ -154,26 +154,92 @@ header .my_header-list li .orange {
     font-size: 1.5rem;
 }
 
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
+
+.bonus-blue {
+    border: 1px solid rgba(27, 114, 232, 1);
+    border-radius: 5px;
+    background-color: rgba(27, 114, 232, 1);
+    color: white;
+    padding: 5px 10px;
+}
+
+.bonus-yellow {
+    border: 1px solid rgba(255, 193, 7, 1);
+    border-radius: 5px;
+    background-color: rgba(255, 193, 7, 1);
+    padding: 5px 10px;
+}
 /* CONTENT-TABLE */
 
 .content-table {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
-.content-table .list-group-item img {
+.content-table .table img {
     width: 25px;
     height: 25px;
 }
 
-.content-table .list-group-item .badge {
+.content-table .table .badge {
     background-color: rgba(25, 135, 84, 1);
 }
 
-.content-table .list-group-item .button-table {
+.content-table .table .button-table {
     background-color: white;
-    border: 2px solid rgba(108, 117, 125, 1);
+    border: 1px solid rgba(108, 117, 125, 1);
     border-radius: 5px;
     width: 25px;
     height: 25px;
     color: rgba(108, 117, 125, 1);
+}
+
+.content-table .table .yellow {
+    background-color: rgba(255, 193, 7, 1);
+}
+
+.content-table .table .red {
+    background-color: rgba(220, 53, 69, 1);
+}
+
+.table .my_col1 {
+    width: 50%;
+}
+
+.table .my_col4 {
+    width: 25%;
+}
+
+.table .my_col5 {
+    width: 25%;
+}
+
+/* F.A.Q. */
+
+.accordion-button {
+    font-size: 0.9rem;
+}
+
+/* TODO */
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+/* STATS */
+
+.card-text {
+    font-size: 1.2rem;
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+.view {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: rgba(13, 110, 253, 1);
 }

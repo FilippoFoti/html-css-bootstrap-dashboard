@@ -1,5 +1,26 @@
 /* MOBILE SM */
 
+@media screen and (min-width: 576px) {
+
+    /* CONTENT-TABLE */
+
+    .table .my_col1 {
+        width: 40%;
+    }
+
+    .table .my_col3 {
+        width: 20%;
+    }
+    
+    .table .my_col4 {
+        width: 20%;
+    }
+    
+    .table .my_col5 {
+        width: 20%;
+    }
+    
+}
 
 
 /* TABLET MD */
@@ -27,6 +48,33 @@
         height: 35px;
         font-size: 1.2rem;
     }
+
+    .offcanvas.offcanvas-end {
+        width: 100%;
+    }
+
+    /* CONTENT-TABLE */
+
+    .table .my_col1 {
+        width: 32%;
+    }
+
+    .table .my_col2 {
+        width: 17%;
+    }
+
+    .table .my_col3 {
+        width: 17%;
+    }
+    
+    .table .my_col4 {
+        width: 17%;
+    }
+    
+    .table .my_col5 {
+        width: 17%;
+    }
+
 }
 
 
@@ -54,5 +102,35 @@
     .jumbotron p {
         font-size: 1.7rem;
     }
+
+    .offcanvas.offcanvas-end {
+        width: 50%;
+    }
     
+}
+
+/* XL 1200px */
+
+@media screen and (min-width: 1200px) {
+
+    .table .my_col1 {
+        width: 40%;
+    }
+
+    .table .my_col2 {
+        width: 15%;
+    }
+
+    .table .my_col3 {
+        width: 15%;
+    }
+    
+    .table .my_col4 {
+        width: 15%;
+    }
+    
+    .table .my_col5 {
+        width: 15%;
+    }
+
 }
